@@ -1,0 +1,25 @@
+{
+    "name": "profit",
+    "displayName": "profit",
+    "description": "Profit Strategy Extension Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "profit",
+            "aliases": ["profit", "profit"],
+            "extensions": [".psl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "profit",
+            "scopeName": "source.psl",
+            "path": "./syntaxes/profit.tmLanguage.json"
+        }]
+    }
+}
